@@ -1,19 +1,19 @@
 #include <stdio.h>
 /**
  * main -Entry point
- * Return: 0 (success)
+ *
+ * Return: Always 0 (Success)
  */
-
 int main(void)
 {
-	char C;
+	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
+	int i;
 
-	C = 'a';
-	while
-		(C <= 'z') {
-			putchar(C);
-			C++;
-		}
-	putchar('\n')
-	return (0);
+	for (i = 0; i < 26; i++)
+{
+	putchar(alp[i]);
+}
+
+putchar('\n');
+return (0);
 }
