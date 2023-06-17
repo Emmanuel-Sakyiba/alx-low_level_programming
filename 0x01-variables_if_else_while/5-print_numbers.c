@@ -1,13 +1,18 @@
 #include <stdio.h>
 /**
- * main - print the alpha in lower and upper case
- * Return: Alway 0 (Success)
+ * main - Prints numbers from 0 to 9.
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char ch;
+	int i;
 
-	for(ch = 'a'; ch <= 'z'; ch++)
-		putchar(ch);
-
+	for (i = 0; i < 10; i++)
+	{
+		printf("%d", i);
+	}
+	putchar('\n');
+	return (0);
+}
 
