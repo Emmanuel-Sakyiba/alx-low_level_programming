@@ -2,13 +2,13 @@
 
 
 /**
- * To print_numbers - print 0-9
+ * print_numbers - print 0-9
  * @c: char to print_numbers
  *
  * Return: void
  */
 
-void print_numbers(void)
+void print_numbers(void);
 {
 	char c;
 
