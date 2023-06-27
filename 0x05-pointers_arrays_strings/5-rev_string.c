@@ -4,8 +4,9 @@
 /**
  * rev_strings - Reserves a string
  * @s: input_reserve_string
- * Return: strings in a reserve
+ * Return: string a reserve
  */
+
 void rev_string(char *s)
 {
 	char rev = s[0];
