@@ -2,7 +2,7 @@
 
 
 /**
- * print_array -  a function that prints n elements of an array of integers,
+ * print_array -  a function that prints n elements of an array
  * followed by a new line.
  * @a: array name
  * @n: is the number of elements OF the array to be printed
