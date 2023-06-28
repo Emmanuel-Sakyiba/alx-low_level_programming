@@ -10,14 +10,14 @@
  */
 void print_array(int *a, int n)
 {
-	int p;
+	int i;
 
-	for (p = 0; p < (n - 1); p++)
+	for (i = 0; i < (n - 1); i++)
 	{
-		printf("%d ", a[p]);
+		printf("%d ", a[i]);
 	}
 
-	if (p == (n - 1))
+	if (i == (n - 1))
 	{
 		printf("%d", a[n - 1]);
 	}
